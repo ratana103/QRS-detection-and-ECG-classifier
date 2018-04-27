@@ -1,0 +1,2 @@
+# QRS-detection-and-ECG-classifier
+Usually for ECG signal, the frequency range over 80Hz is noise. So first, we need to remove this high frequency part. Next, in ECG signal, there is also one critical noise that is called POWER LINE NOISE. Since every electrical device is based on the power line of your grid (in your country 50Hz or 60Hz). Because of this, in bio-metric signals like ECG or EEG based on this grid power, there is always noise of 50Hz (or 60Hz , it depends on country). So that by using notch filter for 50Hz, we can remove this noise.
